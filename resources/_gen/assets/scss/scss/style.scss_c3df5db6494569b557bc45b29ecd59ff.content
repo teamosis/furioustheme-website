@@ -5056,20 +5056,19 @@ footer {
   .header-gap.section-sm {
     padding-top: 10rem; }
 
-.theme-image .btn {
-  width: 170px;
-  margin: 5px; }
-
-.theme-image img {
-  transition: 0.3s; }
-
-.theme-image .block {
-  transition: 0.3s;
-  background-color: rgba(34, 34, 34, 0.4);
-  opacity: 0; }
-
-.theme-image:hover img {
-  transform: scale(1.02); }
-
-.theme-image:hover .block {
-  opacity: 1; }
+.theme-image {
+  box-shadow: 0 2px 7px #eaeaea;
+  border-radius: 5px; }
+  .theme-image .btn {
+    width: 170px;
+    margin: 5px; }
+  .theme-image img {
+    transition: 0.3s; }
+  .theme-image .block {
+    transition: 0.3s;
+    background-color: rgba(34, 34, 34, 0.4);
+    opacity: 0; }
+  .theme-image:hover img {
+    transform: scale(1.02); }
+  .theme-image:hover .block {
+    opacity: 1; }
