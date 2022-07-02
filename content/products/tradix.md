@@ -4,7 +4,7 @@ title: "Tradix"
 description: "Cryptocurrency Exchange Dashboard Laravel Template"
 price: 0
 image: "images/themes/tradix.jpeg"
-product_url: "https://themeforest.net/item/tradix-cryptocurrency-exchange-dashboard-laravel-template/34445328"
-demo_url: "https://demo.quixlab.com/tradix/demo"
+download: "https://themeforest.net/item/tradix-cryptocurrency-exchange-dashboard-laravel-template/34445328"
+demo: "https://demo.quixlab.com/tradix/demo"
 ---
 

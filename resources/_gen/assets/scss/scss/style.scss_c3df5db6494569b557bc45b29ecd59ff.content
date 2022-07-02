@@ -4915,12 +4915,12 @@ h1,
   color: #222; }
 
 .btn-primary {
-  background: #1e52f0;
+  background: #ec6125;
   color: #fff;
-  border-color: #1e52f0; }
+  border-color: #ec6125; }
   .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary:focus, .btn-primary.focus {
-    background: #0e3dcd;
-    border-color: #0e3dcd;
+    background: #cc4a12;
+    border-color: #cc4a12;
     color: #fff; }
 
 body {
@@ -4928,7 +4928,7 @@ body {
   overflow-x: hidden; }
 
 ::selection {
-  background: #4e77f3;
+  background: #f08354;
   color: #fff; }
 
 img {
@@ -4953,7 +4953,7 @@ select {
     outline: 0; }
 
 a:hover {
-  color: #1e52f0; }
+  color: #ec6125; }
 
 .section {
   padding-top: 5rem;
@@ -4963,17 +4963,17 @@ a:hover {
     padding-bottom: 3rem; }
 
 .bg-primary {
-  background: #1e52f0 !important; }
+  background: #ec6125 !important; }
 
 .text-primary {
-  color: #1e52f0 !important; }
+  color: #ec6125 !important; }
 
 .text-default {
   color: #777e90 !important; }
 
 .text-dark:hover,
 .text-reset:hover {
-  color: #1e52f0 !important; }
+  color: #ec6125 !important; }
 
 .bg-light {
   background-color: #fafbff !important; }
@@ -4993,7 +4993,7 @@ a:hover {
   .input-control:not(textarea) {
     height: 50px; }
   .input-control:focus {
-    border-color: #1e52f0; }
+    border-color: #ec6125; }
 
 textarea {
   padding: 0.6rem 1rem !important;
@@ -5020,10 +5020,10 @@ footer {
 .navbar-light .navbar-nav .nav-item .nav-link {
   color: #2e445c; }
   .navbar-light .navbar-nav .nav-item .nav-link:hover {
-    color: #1e52f0; }
+    color: #ec6125; }
 
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-  color: #1e52f0 !important; }
+  color: #ec6125 !important; }
 
 .navigation {
   padding: 10px 0;

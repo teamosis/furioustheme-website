@@ -7,22 +7,24 @@ logo_width = "30px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = false
 # logo text will only show when logo is missing.
-logo_text = "Quixlab"
+logo_text = "Furioustheme"
 # Main Sections
-mainSections = ["themes"]
+mainSections = ["products"]
 # google tag manager
 google_tag_manager = "" # example: G-XXXXXXXXXX
 
-contact_form_action = "#"
-email = "email@gmail.com"
+contact_form_action = "https://formsubmit.co/furiousthemehq@gmail.com"
+email = "furiousthemehq@gmail.com"
+
+copyright = "© 2022 Furioustheme"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Quixlab"]
-description = "Quixlab"
-author = "Quixlab"
+keywords = ["Furioustheme"]
+description = "Furioustheme"
+author = "Furioustheme"
 image = "images/logo.png"
 
 # site verifications
 [site_verification]
-google = ""   # Your verification code
+google = "" # Your verification code
