@@ -31,7 +31,7 @@
     <h3 class="h5 mb-0"><a class="text-reset" href="{{.Params.product_url | safeURL}}" target="_blank">{{.Title}}</a></h3>
     <p class="mb-0 small">{{.Params.description}}</p>
   </div>
-  <div class="price">
+  <div class="price me-3">
     <span class="h4 m-0">{{if eq .Params.price 0}}<span class="text-primary h6 mb-0">FREE</span>{{else}}${{.Params.price}}{{end}}</span>
   </div>
 </div>
