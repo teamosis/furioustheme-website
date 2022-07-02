@@ -23,10 +23,10 @@
       <div class="col-lg-6">
         <form method="POST" action="{{ site.Params.contact_form_action | safeURL}}" class="row gy-3">
           <div class="col-md-6">
-            <input type="text" class="input-control" placeholder="First Name" name="f_name">
+            <input type="text" class="input-control" placeholder="First Name" name="first_name">
           </div>
           <div class="col-md-6">
-            <input type="text" class="input-control" placeholder="Last Name" name="l_name">
+            <input type="text" class="input-control" placeholder="Last Name" name="last_name">
           </div>
           <div class="col-md-6">
             <input type="email" class="input-control" placeholder="Email" name="email" id="email">
@@ -34,7 +34,7 @@
           <div class="col-md-6">
             <input type="text" class="input-control" placeholder="Subject" name="subject" id="subject">
           </div>
-          <div class="col-md-12">
+          <!-- <div class="col-md-12">
             <select name="department" id="department" class="input-control" required="">
               <option value="">Select Department</option>
               <option value="Technical Question">Technical Question</option>
@@ -42,7 +42,7 @@
               <option value="Payment Problem">Payment Problem</option>
               <option value="Others">Others</option>
             </select>
-          </div>
+          </div> -->
           <div class="col-12">
             <textarea name="message" id="message" class="input-control" placeholder="Type You Message Here"
               rows="5"></textarea>

@@ -1,6 +1,6 @@
 ---
-title: "Quixlab Support"
-description: "this is meta description"
+title: "Furioustheme Support"
+description:
 draft: false
 layout: "contact"
 ---

@@ -1,13 +1,8 @@
 # main menu
 [[main]]
-name = "Premium Themes"
-url = "premium-themes/"
+name = "All Templates"
+url = "templates/"
 weight = 1
-
-[[main]]
-name = "Free Themes"
-url = "free-themes/"
-weight = 2
 
 [[main]]
 name = "Support"
