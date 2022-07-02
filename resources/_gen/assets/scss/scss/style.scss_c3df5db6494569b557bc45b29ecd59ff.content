@@ -4893,13 +4893,14 @@ h1,
   font-size: 1rem;
   font-family: "Space Grotesk", sans-serif;
   text-transform: capitalize;
-  padding: 1em 2em;
-  padding-bottom: 0.95em;
+  padding: 0.8em 2em;
+  padding-bottom: 0.75em;
   border-radius: 5rem;
   border: 1px solid;
   position: relative;
   z-index: 1;
-  transition: 0.2s ease; }
+  transition: 0.2s ease;
+  display: inline-block; }
   .btn:hover, .btn:active, .btn.active, .btn:focus, .btn.focus {
     outline: 0;
     box-shadow: none; }
@@ -5050,10 +5051,10 @@ footer {
       padding: 0.5rem; } }
 .banner,
 .header-gap {
-  padding-top: 9.5rem; }
+  padding-top: 10.5rem; }
   .banner.section-sm,
   .header-gap.section-sm {
-    padding-top: 9.2rem; }
+    padding-top: 10rem; }
 
 .theme-image .btn {
   width: 170px;
