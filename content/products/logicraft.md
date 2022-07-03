@@ -1,5 +1,5 @@
 ---
-date: 2022-06-26T18:19:25+06:00
+date: 2022-07-01T18:19:25+06:00
 title: "Logicraft"
 description: "Bootstrap Business Template"
 price: 0

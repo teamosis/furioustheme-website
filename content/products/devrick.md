@@ -1,5 +1,5 @@
 ---
-date: 2021-11-25T18:19:25+06:00
+date: 2022-06-30T18:19:25+06:00
 title: "Devrick"
 description: "Bootstrap Portfolio Template"
 price: 0
