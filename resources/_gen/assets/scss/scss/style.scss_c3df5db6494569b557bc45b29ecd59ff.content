@@ -4984,7 +4984,7 @@ a:hover {
 
 .input-control {
   border: 1px solid #ddd;
-  border-radius: 0;
+  border-radius: 4px;
   width: 100%;
   display: block;
   padding: 0 1rem;
