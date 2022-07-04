@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://site.com/"
+baseURL = "https://quixlab.com/"
 title = "Quixlab"
 theme = ["furioustheme"]
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
