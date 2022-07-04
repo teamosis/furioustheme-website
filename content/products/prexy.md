@@ -7,5 +7,6 @@ image: "/products/prexy.png"
 github: "https://github.com/furioustheme/prexy/"
 download: "https://github.com/furioustheme/prexy/archive/refs/heads/main.zip"
 demo: "https://furioustheme-prexy.netlify.app/demo.html"
+draft: true
 ---
 

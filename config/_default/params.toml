@@ -13,10 +13,10 @@ mainSections = ["products"]
 # google tag manager
 google_tag_manager = "" # example: G-XXXXXXXXXX
 
-contact_form_action = "https://formsubmit.co/furiousthemehq@gmail.com"
-email = "furiousthemehq@gmail.com"
+contact_form_action = "https://airform.io/furioustheme@gmail.com"
+email = "furioustheme@gmail.com"
 
-copyright = "© 2022 Furioustheme"
+copyright = "Copyright © 2022 Furioustheme"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]

@@ -7,5 +7,6 @@ image: "/products/crandy.png"
 github: "https://github.com/furioustheme/crandy/"
 download: "https://github.com/furioustheme/crandy/archive/refs/heads/main.zip"
 demo: "https://furioustheme-crandy.netlify.app/demo.html"
+draft: true
 ---
 
