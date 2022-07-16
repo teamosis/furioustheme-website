@@ -11,7 +11,7 @@ logo_text = "Furioustheme"
 # Main Sections
 mainSections = ["products"]
 # google tag manager
-google_tag_manager = "" # example: G-XXXXXXXXXX
+google_tag_manager = "GTM-TFV2G32"
 
 contact_form_action = "https://formspree.io/f/xbjwvjwy"
 email = "furioustheme@gmail.com"

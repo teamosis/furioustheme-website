@@ -15,11 +15,7 @@
 
 <body>
 	<!-- cache partial only in production -->
-	{{ if hugo.IsProduction }}
-	{{ partialCached "gtm-noscript.html" . }}
-	{{ else }}
 	{{ partial "gtm-noscript.html" . }}
-	{{ end }}
 
 	<!-- header (don't cache it) -->
 	{{ partial "essentials/header.html" . }}

@@ -10,8 +10,6 @@ paginate = "6" # see https://gohugo.io/extras/pagination/
 summaryLength = "10" # see https://gohugo.io/content-management/excerpts/
 # google analytics
 googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# google tag manager
-google_tag_manager = "GTM-TFV2G32"
 
 
 ############################# Outputs ##############################
