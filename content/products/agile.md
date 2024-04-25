@@ -1,6 +1,6 @@
 ---
-date: 2023-05-27T18:19:25+06:00
 title: "Agile"
+date: 2023-05-27
 description: "Tailwindcss SAAS Template"
 price: 0
 image: "/products/agile.png"

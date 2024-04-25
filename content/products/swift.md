@@ -1,6 +1,6 @@
 ---
-date: 2019-06-26T18:19:25+06:00
 title: "Swift"
+date: 2019-06-26
 description: "A Bootstrap Template"
 price: 0
 image: "/products/swift.png"

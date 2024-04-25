@@ -1,6 +1,6 @@
 ---
-date: 2022-07-01T18:19:25+06:00
 title: "Logicraft"
+date: 2022-07-01
 description: "Bootstrap Business Template"
 price: 0
 image: "/products/logicraft.png"

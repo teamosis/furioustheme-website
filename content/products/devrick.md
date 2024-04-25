@@ -1,6 +1,6 @@
 ---
-date: 2022-06-30T18:19:25+06:00
 title: "Devrick"
+date: 2022-06-30
 description: "Bootstrap Portfolio Template"
 price: 0
 image: "/products/devrick.png"

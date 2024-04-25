@@ -1,6 +1,6 @@
 ---
-date: 2022-06-26T18:19:25+06:00
 title: "Nova"
+date: 2022-06-26
 description: "Bootstrap E-commerce Template"
 price: 0
 image: "/products/nova.png"
