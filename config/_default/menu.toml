@@ -5,11 +5,6 @@ url = "templates/"
 weight = 1
 
 [[main]]
-name = "30,000+ Design Resources"
-url = "https://uihut.com/"
-weight = 2
-
-[[main]]
 name = "Support"
 url = "contact/"
 weight = 4
