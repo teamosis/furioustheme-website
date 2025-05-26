@@ -20,7 +20,8 @@ $font-primary: '{{replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .fon
 $font-secondary: '{{replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .font_secondary | default "Lato") "+" " "}}', {{.font_secondary_type | default "sans-serif"}};
 {{ end }}
 
-@import 'templates/bootstrap';
+// @import 'templates/bootstrap';
+@import "bootstrap/bootstrap";
 @import 'mixins';
 @import 'typography';
 @import 'buttons';

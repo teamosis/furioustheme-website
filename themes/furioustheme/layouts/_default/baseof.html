@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default `en-US` }}" itemscope itemtype="http://schema.org/WebPage">
+<html
+  lang="{{ site.LanguageCode | default `en-US` }}"
+  itemscope
+  itemtype="http://schema.org/WebPage"
+>
+  <head>
+    <!-- head (don't cache it) -->
+    {{ partial "essentials/head.html" . }}
 
-<head>
-	<!-- head (don't cache it) -->
-	{{ partial "essentials/head.html" . }}
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }} {{ partialCached "essentials/style.html" . }} {{
+    else }} {{ partial "essentials/style.html" . }} {{ end }}
 
-	<!-- cache partial only in production -->
-	{{ if hugo.IsProduction }}
-	{{ partialCached "essentials/style.html" . }}
-	{{ else }}
-	{{ partial "essentials/style.html" . }}
-	{{ end }}
-</head>
+    <!-- Buy me a coffee script -->
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="furioustheme"
+      data-description="Support me on Buy me a coffee!"
+      data-message=""
+      data-color="#ec6125"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+  </head>
 
-<body>
-	<!-- cache partial only in production -->
-	{{ partial "gtm-noscript.html" . }}
+  <body>
+    <!-- cache partial only in production -->
+    {{ partial "gtm-noscript.html" . }}
 
-	<!-- header (don't cache it) -->
-	{{ partial "essentials/header.html" . }}
+    <!-- header (don't cache it) -->
+    {{ partial "essentials/header.html" . }}
 
-	<main>
-		{{ block "main" . }}{{ end }}
-	</main>
+    <main>{{ block "main" . }}{{ end }}</main>
 
-	<!-- cache partial only in production -->
-	{{ if hugo.IsProduction }}
-	{{ partialCached "essentials/footer.html" . }}
-	{{ partialCached "essentials/script.html" . }}
-	{{ else }}
-	{{ partial "essentials/footer.html" . }}
-	{{ partial "essentials/script.html" . }}
-	{{ end }}
-</body>
-
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }} {{ partialCached "essentials/footer.html" . }} {{
+    partialCached "essentials/script.html" . }} {{ else }} {{ partial
+    "essentials/footer.html" . }} {{ partial "essentials/script.html" . }} {{
+    end }}
+  </body>
 </html>
